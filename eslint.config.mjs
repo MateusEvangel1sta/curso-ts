@@ -19,7 +19,7 @@ export default defineConfig([
     extends: ['js/recommended'],
     rules: {
       ...prettierConfig.rules,
-      'prettier/prettier': ['error', { endOfLine: 'crlf' }],
+      'prettier/prettier': ['error', { endOfLine: 'auto' }],
     },
   },
   tseslint.configs.recommended,
